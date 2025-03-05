@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['CloseUp', 'Cocoa Powder', 'Colgate', 'Hershey-s', 'KeraGlo', 'Lays', 'Loreal', 'Maggi', 'MarieLight', 'Perk']
+
+roboflow:
+  workspace: retail-billing-system-project
+  project: retail-billing-system-vc2hj
+  version: 10
+  license: MIT
+  url: https://universe.roboflow.com/retail-billing-system-project/retail-billing-system-vc2hj/dataset/10
